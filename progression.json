@@ -1,0 +1,39 @@
+{
+  "project": "skill-library",
+  "last_updated": "2026-06-15",
+  "skills": [
+    {
+      "folder": 9,
+      "name": "marketing-content-writer",
+      "cluster": "D",
+      "cluster_name": "Content Creation",
+      "status": "completed",
+      "industries": ["healthcare", "cosmetics", "fashion"],
+      "files": [
+        "CLAUDE.md",
+        "PROJECT-detail.md",
+        "SECOND-KNOWLEDGE-BRAIN.md",
+        "skills/main.md",
+        "skills/sub-brief-intake.md",
+        "skills/sub-compliance-checker.md",
+        "skills/sub-framework-selector.md",
+        "skills/sub-content-generator.md",
+        "skills/sub-platform-adapter.md",
+        "skills/sub-quality-reviewer.md",
+        "skills/sub-ab-variant-generator.md",
+        "tools/knowledge_updater.py",
+        "tests/test-scenarios.md",
+        "tests/test-execution-log.md",
+        "PROJECT-DEVELOPMENT-PHASE-TRACKING.md"
+      ],
+      "phases_completed": [0, 1, 2, 3, 4, 5],
+      "quality_gates": {
+        "gate_1": "brief_completeness",
+        "gate_2": "compliance_risk",
+        "gate_3": "claim_citation_wordcount",
+        "gate_4": "brand_voice_persuasion_compliance",
+        "gate_5": "variant_b_quality"
+      }
+    }
+  ]
+}
