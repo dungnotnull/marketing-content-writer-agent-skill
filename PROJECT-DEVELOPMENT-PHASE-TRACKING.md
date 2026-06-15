@@ -53,34 +53,34 @@ Establish the complete theoretical foundation: copywriting frameworks, regulator
 Implement all 7 sub-skill files — the modular building blocks of the harness.
 
 ### Task List
-- [ ] Write `skills/sub-brief-intake.md`
+- [x] Write `skills/sub-brief-intake.md`
   - Intake prompt template (8 required fields)
   - Clarification question tree for missing fields
   - Output: structured brief JSON schema
-- [ ] Write `skills/sub-compliance-checker.md`
+- [x] Write `skills/sub-compliance-checker.md`
   - Regulatory decision tree: industry → jurisdiction → applicable rules
   - Forbidden claims list per industry
   - Approved language guide (claim softening patterns)
   - Risk level scoring: Low/Medium/High
   - Disclosure requirement templates
-- [ ] Write `skills/sub-framework-selector.md`
+- [x] Write `skills/sub-framework-selector.md`
   - Framework selection matrix: goal × audience × platform × industry → framework
   - Justification template for each framework recommendation
   - Secondary framework pairing logic
-- [ ] Write `skills/sub-content-generator.md`
+- [x] Write `skills/sub-content-generator.md`
   - Framework execution templates (one per framework)
   - Evidence citation embed pattern
   - Compliance constraint injection
   - Word count calibration logic
-- [ ] Write `skills/sub-platform-adapter.md`
+- [x] Write `skills/sub-platform-adapter.md`
   - 10 platform format specs (character limits, hashtag rules, CTA placement, visual cue notes)
   - Content chunking / expansion logic
   - Native language pattern library per platform
-- [ ] Write `skills/sub-quality-reviewer.md`
+- [x] Write `skills/sub-quality-reviewer.md`
   - Scoring rubrics for each of the 5 dimensions
   - Improvement note generation templates
   - Re-score trigger logic
-- [ ] Write `skills/sub-ab-variant-generator.md`
+- [x] Write `skills/sub-ab-variant-generator.md`
   - Variant divergence strategies: angle, hook, CTA, emotional register, sub-segment targeting
   - A/B comparison table template
 
@@ -103,7 +103,7 @@ Implement all 7 sub-skill files — the modular building blocks of the harness.
 Build the top-level orchestration harness (`skills/main.md`) that drives all sub-skills in the correct sequence with quality gate checks at each stage.
 
 ### Task List
-- [ ] Write `skills/main.md` — primary skill entry point
+- [x] Write `skills/main.md` — primary skill entry point
   - Role & Persona definition (senior marketing strategist + compliance specialist)
   - Full harness workflow (9 stages, numbered)
   - Sub-skill invocation instructions
@@ -119,7 +119,7 @@ Build the top-level orchestration harness (`skills/main.md`) that drives all sub
 - [x] Define final output template
 
 ### Deliverables
-- [ ] `skills/main.md`
+- [x] `skills/main.md`
 
 ### Success Criteria
 - main.md can be invoked standalone and drives the full workflow end-to-end
@@ -136,7 +136,7 @@ Build the top-level orchestration harness (`skills/main.md`) that drives all sub
 Build the automated knowledge crawl pipeline (`tools/knowledge_updater.py`) that keeps the skill's knowledge base current.
 
 ### Task List
-- [ ] Write `tools/knowledge_updater.py`
+- [x] Write `tools/knowledge_updater.py`
   - Sources: PubMed, FDA.gov, EFSA, Cosmetics Europe, FTC.gov, Vogue Business, Business of Fashion, Journal of Advertising Research, Content Marketing Institute
   - crawl4ai integration for each source
   - Parsing: title, authors, date, DOI/URL, abstract, key findings
@@ -148,8 +148,8 @@ Build the automated knowledge crawl pipeline (`tools/knowledge_updater.py`) that
 - [x] Test pipeline: run updater, verify new entries appended correctly, verify deduplication
 
 ### Deliverables
-- [ ] `tools/knowledge_updater.py`
-- [ ] Updated `SECOND-KNOWLEDGE-BRAIN.md` (seeded)
+- [x] `tools/knowledge_updater.py`
+- [x] Updated `SECOND-KNOWLEDGE-BRAIN.md` (seeded)
 
 ### Success Criteria
 - Pipeline runs without errors on test execution
@@ -166,7 +166,7 @@ Build the automated knowledge crawl pipeline (`tools/knowledge_updater.py`) that
 Validate the full harness against real-world content brief scenarios and confirm quality gate behavior.
 
 ### Task List
-- [ ] Write `tests/test-scenarios.md` with ≥ 7 scenario tests ← **DONE in this session**
+- [x] Write `tests/test-scenarios.md` with ≥ 7 scenario tests ← **DONE in this session**
 - [x] Execute Scenario 1 (healthcare supplement post): verify FDA compliance check triggers
 - [x] Execute Scenario 2 (cosmetics landing page): verify EU Cosmetics Regulation check
 - [x] Execute Scenario 3 (fashion TikTok): verify greenwashing flag
@@ -199,15 +199,15 @@ Validate the full harness against real-world content brief scenarios and confirm
 Connect shared sub-skills with other harnesses in the skill library and ensure Cluster D integrates cleanly with the cross-cutting design patterns.
 
 ### Task List
-- [ ] Verify `sub-quality-reviewer.md` is compatible with Cluster B quality reviewer pattern
-- [ ] Verify `sub-brief-intake.md` aligns with Cluster A intake patterns for reusability
+- [x] Verify `sub-quality-reviewer.md` is compatible with Cluster B quality reviewer pattern
+- [x] Verify `sub-brief-intake.md` aligns with Cluster A intake patterns for reusability
 - [x] Register skill in root `D:\Dungchan\skill\CLAUDE.md` cluster map
-- [ ] Update `progression.json` to mark folder 9 as completed
+- [x] Update `progression.json` to mark folder 9 as completed
 - [x] Final review: confirm all 8 required files present and complete
 - [x] Documentation review: ensure all files are in English, follow Claude Skill standard
 
 ### Deliverables
-- [ ] Updated `D:\Dungchan\skill\progression.json`
+- [x] Updated `D:\Dungchan\skill\progression.json`
 - [x] Cross-skill compatibility verification notes
 
 ### Success Criteria
